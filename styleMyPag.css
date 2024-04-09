@@ -1,0 +1,143 @@
+.detalleOne {
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleTwo {
+    display: inline-block;
+    margin-left: 173px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleThree {
+    display: inline-block;
+    margin-left: 210px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleFour {
+    display: inline-block;
+    margin-left: 160px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleFive {
+    display: inline-block;
+    margin-left: 185px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleSix {
+    display: inline-block;
+    margin-left: 155px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.detalleSeven {
+    display: inline-block;
+    margin-left: 122px;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.h1Container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 8px;
+    margin-top: 315px;
+}
+
+.iconosRed {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 30px;
+    margin-left: -100px;
+    padding: 5px;
+}
+
+.iconosRedDos {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 30px;
+    margin-top: -45px;
+    padding: 5px;
+}
+
+.iconosRedTres {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 30px;
+    margin-top: -42px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.envolturaP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-left: 200px;
+    margin-right: 180px;
+    padding: 5px;
+}
+
+.check-icon {
+    background-color: green;
+}
+
+.listaSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: -40px;
+    padding: 10px;
+    
+}
+
+.ulList {
+    list-style: none;
+    margin: 40px;
+}

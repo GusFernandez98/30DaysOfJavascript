@@ -1,0 +1,49 @@
+.oneTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 8px;
+    margin-bottom: -15px;
+}
+
+.twoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 214, 235);
+}
+
+.country {
+    display: inline-flex; /* Cambia display a inline-flex */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 25px;
+    width: 100px;
+    height: 100px; /* Establece una altura fija para todos los cuadros */
+    text-align: center; /* Centra horizontalmente el texto */
+    font-family: Arial;
+    border: 1px solid rgb(59, 214, 235);
+}

@@ -197,11 +197,11 @@ const countries = [
 ];
 
 //·Extrae todos los países que contengan la palabra 'land':
-for (const land of countries){
-    if(land.includes('land')){
-        //console.log(land)
-    }
-}
+// for (const land of countries){
+//     if(land.includes('land')){
+//         //console.log(land)
+//     }
+// }
 // for (let i = 0; i < countries.length; i++){
 //     if (countries[i].includes('land')){
 //         console.log(countries[i])
@@ -209,74 +209,76 @@ for (const land of countries){
 // }
 
 //·Encuentra el país que contiene la mayor cantidad de caracteres en el array countries:
-for (let i = 0; i < countries.length; i++) {
-    //console.log(countries[i].length) -> verifico la long de los elementos
-    if (countries[i].length > 23){
-        //console.log(countries[i])
-    }   
-}
+// for (let i = 0; i < countries.length; i++) {
+//     //console.log(countries[i].length) -> verifico la long de los elementos
+//     if (countries[i].length > 23){
+//         //console.log(countries[i])
+//     }   
+// }
 
-for(const strmax of countries) {
-    if (strmax.length > 23) {
-        //console.log(strmax)
-    }
-}
+// for(const strmax of countries) {
+//     if (strmax.length > 23) {
+//         //console.log(strmax)
+//     }
+// }
 
 //·Extrae todos los países que contengan solo cuatro caracters del array countries e impremela como un array:
-for (let i = 0; i < countries.length; i++) {
-    if (countries[i].length <= 4){
-        //console.log(countries[i])
-    }
-};
+// for (let i = 0; i < countries.length; i++) {
+//     if (countries[i].length <= 4){
+//         //console.log(countries[i])
+//     }
+// };
 
-for (const fourStr of countries) {
-    if (fourStr.length <= 4) {
-        //console.log(fourStr)
-    }
-};
+// for (const fourStr of countries) {
+//     if (fourStr.length <= 4) {
+//         //console.log(fourStr)
+//     }
+// };
 
 //·Extrae todos los paíse que contengan dos o más palabras del array countries e imprimela como un array:
-let paisesTwoStr = [];
+//let paisesTwoStr = [];
 
-for (let i = 0; i < countries.length; i++) {
-    //Divide el strings en elementos distintos: "Bosnia and Herzegovina" -> 'Bosnia', 'and', 'Herzegovina'
-    const twoStr = countries[i].split(' '); 
+// for (let i = 0; i < countries.length; i++) {
+//     //Divide el strings en elementos distintos: "Bosnia and Herzegovina" -> 'Bosnia', 'and', 'Herzegovina'
+//     const twoStr = countries[i].split(' '); 
     
-    if (twoStr.length === 2) {
-        //Si hay dos palabras, se pushe al arr vacio:
-        paisesTwoStr.push(countries[i]) 
-    }
-}
+//     if (twoStr.length === 2) {
+//         //Si hay dos palabras, se pushe al arr vacio:
+//         paisesTwoStr.push(countries[i]) 
+//     }
+// }
 //For each -> funcion de arrays
 //Recorre cada elementos del array y ejecuta una cb para cada uno.
-if (paisesTwoStr.length > 0) {
-    //console.log("Los países con nombres de dos palabras son:");
-    paisesTwoStr.forEach(pais => {
-        //console.log(pais);
-    });
-} else {
-    //console.log("No hay países con nombres de dos palabras.");
-}
+// if (paisesTwoStr.length > 0) {
+//     //console.log("Los países con nombres de dos palabras son:");
+//     paisesTwoStr.forEach(pais => {
+//         //console.log(pais);
+//     });
+// } else {
+//     //console.log("No hay países con nombres de dos palabras.");
+// }
 
 
 //Invertir el array countries y poner en mayúscula cada país y almacenalo en un array:
-let newArrMayus = [];
+// let newArrMayus = [];
 
 //·se utiliza para crear una copia de parte o de todo un array:
 //for of:
-let arrCounReverse = countries.slice().reverse();
+//let arrCounReverse = countries.slice().reverse();
 
-for (const str of arrCounReverse){
-    let mayusArr = str.toUpperCase();
-    newArrMayus.push(mayusArr)
-}
-//console.log(newArrMayus)
+// for (const str of arrCounReverse){
+//     let mayusArr = str.toUpperCase();
+//     newArrMayus.push(mayusArr)
+// }
+// //console.log(newArrMayus)
 
-//con bucle for:
-let mayusArrTwo = [];
+// //con bucle for:
+// let mayusArrTwo = [];
 
-for (let i = 0; i < arrCounReverse.length; i++) {
-    let mayu = arrCounReverse[i].toUpperCase();
-    mayusArrTwo.push(mayu)
-}
-console.log(mayusArrTwo)
+// for (let i = 0; i < arrCounReverse.length; i++) {
+//     let mayu = arrCounReverse[i].toUpperCase();
+//     mayusArrTwo.push(mayu)
+// }
+// console.log(mayusArrTwo)
+
+//export default countries;

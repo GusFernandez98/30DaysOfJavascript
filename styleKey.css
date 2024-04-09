@@ -1,0 +1,32 @@
+.divTecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold; /* Aplica la negrita */
+    border: 2px solid transparent;/* Añade el ancho del borde y el estilo */
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 250px;
+    
+}
+
+.divKey {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family:monospace;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.press {
+    border-color: rgb(211, 203, 203); /* Cambia el color del borde cuando se presiona la tecla */
+}
