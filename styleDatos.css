@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.containerTitle {
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Esto centrará verticalmente los elementos dentro del contenedor */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: 130px;
+    border-bottom: 2px groove;
+}
+
+.h1 {
+    margin-top: 18px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color:orange;
+}
+
+.p1 {
+    font-size: 18px;
+    /*letter-spacing: 1px;*/
+    margin-top: -15px;
+    
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    position: relative; /* Hacemos que el contenedor sea relativo */
+    height: 80px;
+}
+
+.buttonOne,
+.buttonTwo {
+    margin: 10px;
+    padding: 5px;
+    margin-top: -30px;
+    background-color: orange;
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.buttonOne:hover {
+    background-color: #ffa047; 
+}
+
+.buttonTwo:hover {
+    background-color: #ffa047; 
+}
+
+.pText {
+    margin-top: 80px;
+    position: absolute; /* Hacemos que el párrafo sea absoluto */
+    text-align: center; /* Alineamos el texto al centro */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.containerInfo {
+    background-color: rgb(243, 240, 240);
+    margin: 10px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px groove;
+}

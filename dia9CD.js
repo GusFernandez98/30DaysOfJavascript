@@ -788,7 +788,7 @@ const result = topLanguages.map(([language, count]) => ({
 
 return result;
 };
-//console.log(mostSpokenLenguage(countriesData, 10))
+console.log(mostSpokenLenguage(countriesData, 10))
 
 //·Contabilizar paises mas poblados
 const mostPopulatedCountries = (countries, topCount) => {

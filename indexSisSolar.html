@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSolar.css">
+    <title>Sistema solar</title>
+</head>
+<body>
+    <div  class="background">
+    <div class="tituloPag">
+        Calculate a weight of an object on a planet
+    </div>
+    <p class="pError" id="message"></p>
+    <div class="allInputs">
+        <input class="input" id="mass" type="text" placeholder="Mass in Kilogram"/>
+        <input class="inputSelect" id="planetInput" type="text" list="planets" placeholder="Select planet">
+        <datalist id="planets"> 
+            <option value="Mercury">
+            <option value="Venus">
+            <option value="Earth">
+            <option value="Mars">
+            <option value="Jupiter">
+            <option value="Saturn">
+            <option value="Uranus">
+            <option value="Neptune">
+        </datalist> 
+        <button class="boton" onclick="calculateWeight()">Calculate Weight</button>
+    </div>
+    <div class="contenedor" id="autoResize">
+        <div class="contenido" id="result"> mass is required</div> <!-- Aquí se mostrará el resultado -->
+    </div>
+    <div id="planetImageContainer"></div> <!-- Contenedor de la imagen del planeta -->
+    <script src="scriptSolar.js"></script>
+
+    </div>
+</body>
+</html>
