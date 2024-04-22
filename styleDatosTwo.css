@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+.country {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+    margin-left: 70px;
+    padding: 15px;
+    width: 160px; 
+    height: 200px; 
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    background-image: url(/imagen/backmundiModern.jpg);
+    background-size: cover;
+    background-position: center;
+    color:black;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columnas */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    background-image: url(imagen/backModern.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    height: 470px; 
+}
+
+.tituloPag {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 8px;
+    color:black;
+    margin-bottom: -8px;
+    font-weight: bold;
+    
+}
+
+.subTitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 30px;
+    
+}
+
+.buscador {
+    margin: 5px;
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.searchButton {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    padding: 5px; /* Ajusta el espacio interno */
+    display: flex;
+    margin-left: 350px;
+    margin-top: -41px;
+}
+
+/* Estilos para la imagen de la lupa */
+.searchIcon {
+    width: 25px; /* Tamaño de la imagen */
+    height: 25px;
+}
+
